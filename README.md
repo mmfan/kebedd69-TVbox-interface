@@ -243,6 +243,8 @@ MD5在TVbox中的填写格式："spider": "https://j***.jar;md5;***",
 
 jar打包：在jar仓库里依次点击：actions-workflows-spider jar gen cl-run workflow。和打包TVBOX一样。
 
+jar打包成功实例仓库：仅供参考，自行添加新的，删除或者修改失效的。https://github.com/dlgt7/TvJar
+
 Fork始点，地位特殊：https://github.com/Tangsan99999/TvJar
 
 https://github.com/Kimlee-cmd/TvJar
