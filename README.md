@@ -147,6 +147,10 @@ http://www.36nu.com/apiTest
 
 https://kvymin.github.io/CatVodTVJsonEditor/
 
+下边这个比较牛了，能加密，能解密：
+
+https://hfr1107.github.io/catvodtvjsoneditor/
+
 ## 给TVbox站源添加符号:
 
 很多人喜欢给TVbox的站源或者电视直播频道自定义一个符号，比如下面这类，实际上就是增加了网页符号。
