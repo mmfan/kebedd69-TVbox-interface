@@ -149,7 +149,7 @@ https://kvymin.github.io/CatVodTVJsonEditor/
 
 下边这个比较牛了，能加密，能解密：
 
-hfr1107.github.io/catvodtvjsoneditor/
+[hfr1107.github.io/catvodtvjsoneditor/](https://hfr1107.github.io/CatVodTVJsonEditor/)
 
 ## 给TVbox站源添加符号:
 
