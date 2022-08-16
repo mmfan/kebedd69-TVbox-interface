@@ -307,6 +307,11 @@ https://down.52pojie.cn/Tools/
 
 试试吧，不一定对。
 
+## 【教程】Pluto player影视软件新姿势_无密码挂载alist_免费观看原画 来自微信公众号，自己去公众号学习，保存。
+
+![SI{_@0YJUV5(}BEJS4Q NSY](https://user-images.githubusercontent.com/102397160/184772713-40200b4e-c082-4792-944c-d1982d398fab.png)
+
+
 ### Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/dlgt7/TVbox-interface.svg)](https://starchart.cc/dlgt7/TVbox-interface)
