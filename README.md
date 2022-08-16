@@ -198,9 +198,13 @@ clanTV：
 
 https://github.com/clanTV/clanTV
 
-FongMi-TV
+FongMi-TV:
 
 https://github.com/FongMi/TV
+
+BearTV:
+
+https://github.com/haha459862/BearTV
 
 官仓：终结于2022年7月18日。封仓。
 
