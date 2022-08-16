@@ -313,10 +313,12 @@ https://down.52pojie.cn/Tools/
 
 试试吧，不一定对。
 
-## 今天看到一个新的教程：【教程】Pluto player影视软件新姿势_无密码挂载alist_免费观看原画 来自一个微信公众号。
+## 今天看到一个新的教程：
+【教程】Pluto player影视软件新姿势_无密码挂载alist_免费观看原画 
 
-![SI{_@0YJUV5(}BEJS4Q NSY](https://user-images.githubusercontent.com/102397160/184772713-40200b4e-c082-4792-944c-d1982d398fab.png)
+8款网盘可同时挂载到Kodi播放器，支持Mac和Windows平台
 
+教程在仓库里：https://github.com/dlgt7/TVbox-interface  PDF文件格式，需下载查看，感觉不清楚的话，文件里写有教程出处，都是公众号文章。
 
 ### Stargazers over time
 
