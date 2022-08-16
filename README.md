@@ -182,13 +182,15 @@ pluto-player：不开源 A佬。魔改，改动大，功能多，能在线升级
 
 https://github.com/pluto-player/updates
 
-takagen99：解除**屏蔽
+takagen99：
 
 https://github.com/takagen99/TVBoxOSC
 
 o0HalfLife0o：
 
 https://github.com/o0HalfLife0o/TVBoxOSC
+
+https://github.com/dlgt7/TVBoxOSC-o0HalfLife0o   上传作业分享的开源代码，有需要的自己fork回去修改。（2022-8-11）
 
 https://github.com/o0HalfLife0o/AlphaTV
 
