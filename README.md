@@ -174,7 +174,7 @@ https://github.com/cloudreve/Cloudreve
 
 巧技大佬仓库地址：https://gitea.com/qiaoji
 
-俊于大佬+唐三大佬+影魔大佬=官仓延续：
+于俊大佬+唐三大佬+影魔大佬=官仓延续：
 
 https://github.com/q215613905/TVBoxOS
 
