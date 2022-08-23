@@ -210,6 +210,10 @@ https://github.com/haha459862/BearTV
 
 https://github.com/CatVodTVOfficial/TVBoxOSC
 
+这两天讨论较多的六神TV版本仓库：
+
+https://gitea.com/y36369999/9
+
 ## 常用工具：
 
 文本比较、json格式化：
