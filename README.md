@@ -268,6 +268,10 @@ https://github.com/Kvymin/CatVodTVSpider
 
 https://github.com/Kvymin/CatVod  
 
+传说中的T4类型，仓库地址如下，自己研究。
+
+https://github.com/sec-an/TV_Spider
+
 ## 电脑修改 apk 所需软件 
 
 0、首推吾爱破解工具包：
