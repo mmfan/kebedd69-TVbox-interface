@@ -210,9 +210,9 @@ https://github.com/haha459862/BearTV
 
 https://github.com/CatVodTVOfficial/TVBoxOSC
 
-这两天讨论较多的六神TV版本仓库：
+多线路TV版本仓库：
 
-https://gitea.com/y36369999/9
+https://github.com/tv-player
 
 ## 常用工具：
 
