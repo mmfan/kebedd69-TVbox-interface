@@ -59,7 +59,6 @@
 
 26、诺灸：https://www.cloudewl.cn
 
-27、代码托管：https://agit.ai
 
 ## 短链接制作网址：哪个稳定自己测试。
 
@@ -130,7 +129,7 @@ http://www.36nu.com/apiTest
 
 ### 天天维护的接口，慢慢收集
 
-接口1:http://刚刚.live/猫
+接口1:http://xn--4bra.live/gg0825.json
 
 接口2:http://maoyingshi.cc/tvbox/云星日记/1.m3u8
 
