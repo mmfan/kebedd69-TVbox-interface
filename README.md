@@ -141,6 +141,10 @@ http://www.36nu.com/apiTest
 
 接口6：https://gitea.com/Yoursmile/TVBox/raw/branch/main/XC.json
 
+牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！
+
+https://maoyingshi.cc/
+
 
 ## TVBox配置编辑器：
 
