@@ -131,17 +131,13 @@ http://www.36nu.com/apiTest
 
 接口1:http://xn--4bra.live/gg0825.json
 
-接口2:http://maoyingshi.cc/tvbox/云星日记/1.m3u8
+接口2:http://xiaoz123.ysepan.com/
 
-接口3:https://gitea.com/qiaoji/jar/raw/branch/main/qiaoji.json
+接口3：https://gitea.com/ltxxjs/tinghao/raw/branch/main/20220729-1.json
 
-接口4:http://xiaoz123.ysepan.com/
+接口4：https://gitea.com/Yoursmile/TVBox/raw/branch/main/XC.json
 
-接口5：https://gitea.com/ltxxjs/tinghao/raw/branch/main/20220729-1.json
-
-接口6：https://gitea.com/Yoursmile/TVBox/raw/branch/main/XC.json
-
-牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！
+## 牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！
 
 https://maoyingshi.cc/
 
