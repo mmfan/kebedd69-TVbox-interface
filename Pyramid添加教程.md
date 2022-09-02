@@ -1,3 +1,7 @@
+原文出处：https://github.com/UndCover/PyramidStore/blob/main/tutorial.md
+
+自动添加代码：https://github.com/lm317379829/TVBoxDIY
+
 
 ## Pyramid添加教程
 
