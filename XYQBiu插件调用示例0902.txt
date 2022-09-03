@@ -1,0 +1,8 @@
+//目前提供外挂调用，如果你有能力可以合入你的jar包里
+{"key": "csp_XYQBiu_影视工厂","name":"影视工厂显示线路名(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/MaoXYQ/影视工厂.json","jar":"clan://TVBox/XYQBiu.jar"},
+{"key": "csp_XYQBiu_555影视","name":"555影视搜索suggest格式(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"clan://TVBox/MaoXYQ/555影视.json","jar":"clan://TVBox/XYQBiu.jar"},
+{"key": "csp_XYQBiu_剧荒","name": "剧荒第一页不含页码写法(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "clan://TVBox/MaoXYQ/剧荒.json","jar":"clan://TVBox/XYQBiu.jar"},
+//开启筛选注意配置filterable要设置成1
+{"key": "csp_XYQBiu_神马","name": "神马筛选测试，这个网站无法嗅探播放(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "clan://TVBox/MaoXYQ/神马筛选.json","jar":"clan://TVBox/XYQBiu.jar"},
+{"key": "csp_XYQBiu_虎牙","name": "虎牙直接播放写法测试(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "clan://TVBox/MaoXYQ/虎牙代理直链.json","jar":"clan://TVBox/XYQBiu.jar"}
+        
