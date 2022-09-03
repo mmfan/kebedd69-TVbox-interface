@@ -126,17 +126,6 @@ http://www.36nu.com/apiTest
 {"key":"***","name":"***","type":3,"api":"***","searchable":1,"quickSearch":1,"filterable":1,"jar":"your_other_jar"},
 
 
-
-### 天天维护的接口，慢慢收集
-
-接口1:http://xn--4bra.live/gg0825.json
-
-接口2:http://xiaoz123.ysepan.com/
-
-接口3：https://gitea.com/ltxxjs/tinghao/raw/branch/main/20220729-1.json
-
-接口4：https://gitea.com/Yoursmile/TVBox/raw/branch/main/XC.json
-
 ## 牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！
 
 https://maoyingshi.cc/
