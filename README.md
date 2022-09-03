@@ -189,8 +189,6 @@ o0HalfLife0o：
 
 https://github.com/o0HalfLife0o/TVBoxOSC
 
-https://github.com/dlgt7/TVBoxOSC-o0HalfLife0o   上传作者分享的开源代码，有需要的自己fork回去修改。（2022-8-11）
-
 https://github.com/o0HalfLife0o/AlphaTV
 
 clanTV：
