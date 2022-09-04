@@ -1,0 +1,87 @@
+/**
+在大佬原有基础上修改，
+1、增加了自创简洁筛选模式，借鉴菜花了的分类，统一了分类和筛选形式，名称和值用$隔开，多个分类用#隔开
+2、增强标题、图标、副标题容错，截取错误只有错误部分不显示，直接能知道什么地方错
+3、修复其他小bug
+*/
+{"name": "影视工厂",
+"url": "https://www.ysgc.cc",
+"tihuan": "cnzz.com",
+"User": "空",
+"shouye":"1",
+//兼容老xb
+//"fenlei": "国产剧$/vodshow/13--------#港台剧$/vodshow/14--------#日韩剧$/vodshow/15--------#欧美剧$/vodshow/16--------#综 艺$/vodshow/3--------#动 漫$/vodshow/4--------#动作片$/vodshow/1---动作-----#喜剧片$/vodshow/1---喜剧-----#爱情片$/vodshow/1---爱情-----#科幻片$/vodshow/1---科幻-----#恐怖片$/vodshow/1---恐怖-----#剧情片$/vodshow/1---剧情-----#战争片$/vodshow/1---战争-----#武侠片$/vodshow/1---武侠-----",
+//"houzhui": "---.html",
+//这里分类未填写，用默认数字四大
+//"分类": "电影$1#电视剧$2#综艺$3#动漫$4",等同于"数字"和空，另外内置还有"拼音"，筛选{cateId}在此追加
+"分类页": "https://www.ysgc.fun/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"shifouercijiequ": "0",
+"jiequqian": "空",
+"jiequhou": "空",
+"jiequshuzuqian": "class=\"myui-vodlist__box\"",
+"jiequshuzuhou": "</span>",
+"tupianqian": "original=\"",
+"tupianhou": "\"",
+"biaotiqian": "title=\"",
+"biaotihou": "\"",
+"lianjieqian": "href=\"",
+"lianjiehou": "\"",
+"sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+"sousuohou": "&limit=500",
+"sousuohouzhui": "/voddetail/",
+"ssmoshi": "0",
+"sousuoshifouercijiequ": "0",
+"jspic": "pic",
+"jsname": "name",
+"jsid": "id",
+"ssjiequqian": "空",
+"ssjiequhou": "空",
+"ssjiequshuzuqian": "空",
+"ssjiequshuzuhou": "空",
+"sstupianqian": "空",
+"sstupianhou": "空",
+"ssbiaotiqian": "空",
+"ssbiaotihou": "空",
+"sslianjieqian": "空",
+"sslianjiehou": "空",
+//可兼容调试助手中文线路名
+    "xlshifouercijiequ": "",
+    "xljiequqian": "",
+    "xljiequhou": "",
+    "xljiequshuzuqian": "data-toggle=\"tab\"",
+    "xljiequshuzuhou": "/a>",
+    "xlbiaotiqian": ">",
+    "xlbiaotihou": "<",
+"bfshifouercijiequ": "0",
+"bfjiequqian": "空",
+"bfjiequhou": "空",
+"bfjiequshuzuqian": "id=\"playlist",
+"bfjiequshuzuhou": "</ul>",
+"zhuangtaiqian": "class=\"otherbox\">",
+"zhuangtaihou": "</p>",
+"daoyanqian": "导演：</span>",
+"daoyanhou": "</p>",
+"zhuyanqian": "主演：</span>",
+"zhuyanhou": "</p>",
+"juqingqian": "class=\"sketch content\">",
+"juqinghou": "</span>",
+"bfyshifouercijiequ": "0",
+"bfyjiequqian": "空",
+"bfyjiequhou": "空",
+"bfyjiequshuzuqian": "<a",
+"bfyjiequshuzuhou": "/a>",
+"bfbiaotiqian": ">",
+"bfbiaotihou": "<",
+"bflianjieqian": "href=\"",
+"bflianjiehou": "\"",
+//嗅探词过滤词为空时用默认
+"嗅探词": "",
+"过滤词": "",
+//0关闭所有筛选，1自定义筛选，可用xp的json数据
+"筛选": "1",
+//筛选为1时，以下相关筛选才有用,以下字段为1或者空时，使用默认，为0时关闭相关筛选，也可以"名称$值#名称$值"的方式自定义，年份自定义稍有不同，1为默认，等同于"2010-2022"
+"剧情": "1",//模板："动作$动作#喜剧$喜剧"...{class}
+"地区": "1",//{area}
+"年份": "1",//等同于"2010-2022",{year}
+"排序": "1"//{by}
+}
