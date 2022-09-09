@@ -166,6 +166,10 @@ https://github.com/cloudreve/Cloudreve
 
 https://github.com/q215613905/TVBoxOS
 
+TV猫盒：这个不赖
+
+https://github.com/kensonmiao/CatVodTVOSC
+
 pluto-player：不开源 A佬。魔改，改动大，功能多，能在线升级，目前不支持低版本安卓。
 
 https://github.com/pluto-player/updates
