@@ -12,7 +12,7 @@ implementation files('libs\\xwalk_shared_library-23.53.589.4.aar')
 
 flatDir { dirs './libs' }
 
-xwalk_shared_library-23.53.589.4.aar 
+ 第2项文件：xwalk_shared_library-23.53.589.4.aar放这个文件夹里：app/libs/  
 
 文件在这个文件夹里：https://github.com/dlgt7/TVbox-interface/tree/main/xwalk_shared_library23.53.589.4
 
