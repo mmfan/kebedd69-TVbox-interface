@@ -6,3 +6,4 @@
 
 implementation(name: 'xwalk_shared_library-23.53.589.4', ext: 'aar')
 flatDir { dirs './libs' }
+xwalk_shared_library-23.53.589.4.aar 
