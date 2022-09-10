@@ -13,7 +13,7 @@ xwalk_shared_library-23.53.589.4.aar
 文件在这个文件夹里：https://github.com/dlgt7/TVbox-interface/tree/main/xwalk_shared_library23.53.589.4
 
 
-如果不用android_builder打包apk，则如下改动：
+如果不用android_builder打包release版apk，则如下改动：
 
 //    implementation('org.xwalk:xwalk_shared_library:23.53.589.4') {
 //        exclude group: 'com.android.support'
