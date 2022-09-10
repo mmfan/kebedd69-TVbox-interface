@@ -16,4 +16,5 @@ xwalk_shared_library-23.53.589.4.aar
 如果不用android_builder打包apk，则如下改动：
 
 implementation files('libs\\thunder.jar')
+
 implementation files('libs\\xwalk_shared_library-23.53.589.4.aar')
