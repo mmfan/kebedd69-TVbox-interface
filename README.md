@@ -208,6 +208,10 @@ https://github.com/tv-player
 
 https://github.com/dlgt7/TVbox-interface/blob/main/%E8%BF%91%E6%9C%9F%E4%B8%8D%E8%83%BD%E6%89%93%E5%8C%85%E4%B8%B4%E6%97%B6%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md
 
+自己修改代码恢复android_builder打包apk
+
+https://github.com/dlgt7/TVbox-interface/blob/main/%E8%87%AA%E5%B7%B1%E6%94%B9%E4%BB%A3%E7%A0%81%E6%81%A2%E5%A4%8Dandroid_builder%E6%89%93%E5%8C%85apk.MD
+
 ## 常用工具：
 
 文本比较、json格式化：
