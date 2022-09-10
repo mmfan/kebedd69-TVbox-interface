@@ -15,6 +15,10 @@ xwalk_shared_library-23.53.589.4.aar
 
 如果不用android_builder打包apk，则如下改动：
 
-implementation files('libs\\thunder.jar')
+//    implementation('org.xwalk:xwalk_shared_library:23.53.589.4') {
+//        exclude group: 'com.android.support'
+//    } 屏蔽这些
 
+implementation files('libs\\thunder.jar')
+// 添加下边的
 implementation files('libs\\xwalk_shared_library-23.53.589.4.aar')
