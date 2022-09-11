@@ -17,4 +17,10 @@ flatDir { dirs './libs' }
 文件在这个文件夹里：https://github.com/dlgt7/TVbox-interface/tree/main/xwalk_shared_library23.53.589.4
 
 
+或者用别人的服务地址，这样打包小，只改一处文件。
+
+![1662887518736](https://user-images.githubusercontent.com/102397160/189520079-33f8c263-780b-4699-b085-852e8c5550b1.png)
+
+
+
 
