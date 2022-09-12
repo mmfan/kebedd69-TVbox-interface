@@ -18,7 +18,10 @@ flatDir { dirs './libs' }
 
 
 
+最简单的办法如下：
 
-// maven { url 'http://9xi4o.tk/maven2' }
+//maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
+        
+maven { url 'http://9xi4o.tk/maven2' }
 
 
