@@ -214,6 +214,10 @@ https://github.com/dlgt7/TVbox-interface/blob/main/%E8%87%AA%E5%B7%B1%E6%94%B9%E
 
 ## 常用工具：
 
+免魔法电报，也是个开源项目，用前自己上网查询这个怎么样。
+
+https://github.com/NekoX-Dev/NekoX
+
 文本比较、json格式化：
 https://tsq.lanzouf.com/b0c4rjpsb
 密码:123
