@@ -130,14 +130,14 @@ http://www.36nu.com/apiTest
 
 https://maoyingshi.cc/
 
+这里边不少接口，自己扒拉一下。
+
+https://github.com/tv-player/TvBox
+
 
 ## TVBox配置编辑器：
 
 https://kvymin.github.io/CatVodTVJsonEditor/
-
-下边这个比较牛了，能加密，能解密：
-
-[hfr1107.github.io/catvodtvjsoneditor/](https://hfr1107.github.io/CatVodTVJsonEditor/)
 
 ## 给TVbox站源添加符号:
 
