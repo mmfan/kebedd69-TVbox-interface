@@ -59,6 +59,8 @@
 
 26、诺灸：https://www.cloudewl.cn
 
+27、凯速网：https://my.ksust.com/
+
 
 ## 短链接制作网址：哪个稳定自己测试。
 
