@@ -52,6 +52,7 @@
 
 23、吾爱云盘：http://52bsj.vip:81/login
 
+24、https://codeberg.org/
 
 ## 短链接制作网址：哪个稳定自己测试。
 
