@@ -54,6 +54,8 @@
 
 24、https://codeberg.org/
 
+25、https://www.notabug.org
+
 ## 短链接制作网址：哪个稳定自己测试。
 
 https://gg.gg 
