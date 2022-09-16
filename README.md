@@ -50,6 +50,8 @@
 
 22、https://gitcode.net/explore
 
+23、吾爱云盘：http://52bsj.vip:81/login
+
 
 ## 短链接制作网址：哪个稳定自己测试。
 
