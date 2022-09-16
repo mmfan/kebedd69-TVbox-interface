@@ -20,46 +20,33 @@
 
 7、比邻： https://pan.bilnn.com 收费了，能在线编辑
 
-8、往事、彩虹: https://wp.wangshi520.com/ 不能在线编辑
+8、惜染 https://mpimg.cn/ 不能在线编辑
 
-9、猫猫外链： http://mmwl.88wg.top/ 不能在线编辑
+9、枫铭网盘： https://pan.dkpoi.com 不能编辑
 
-10、惜染 https://mpimg.cn/ 不能在线编辑
+10、https://out.zxglife.top 不能编辑
 
-11、枫铭网盘： https://pan.dkpoi.com 不能编辑
+11、OpenDrive: https://www.opendrive.com/ 能在线编辑，慢
 
-12、https://out.zxglife.top 不能编辑
+12、nite07网盘 https://share.nite07.com
 
-13、https://pan.05kr.com 不能编辑
+13、ifilespace https://demo.ifile.space/main
 
-14、http://tvmvip110.live/
-书源: https://shuyuan.miaogongzi.net/ 不能在线编辑,打不开了。
+14、七彩云存储： https://cloud.06dn.com/login
 
-15、OpenDrive: https://www.opendrive.com/ 能在线编辑，慢
+15、豆子外链： http://zuoye.free.fr/index.php 限制文件格式
 
-16、云星 https://pan.css.lc/ 收费了，能在线编辑
+16、棱束链： https://www.lingshulian.com/
 
-17、nite07网盘 https://share.nite07.com
+17、凯速网https://my.ksust.com
 
-18、ifilespace https://demo.ifile.space/main
+18、乐分发存储：https://pan.leffs.cn/Login
 
-19、七彩云存储： https://cloud.06dn.com/login
+19、https://www.jsdelivr.com/
 
-20、豆子外链： http://zuoye.free.fr/index.php 限制文件格式
+20、恩华云盘：https://pan.ehvip.cn
 
-21、棱束链： https://www.lingshulian.com/
-
-22、可直链下载的免费存储空间：https://my.ksust.com/kstore.htm
-
-23、乐分发存储：https://pan.leffs.cn/Login
-
-24、https://www.jsdelivr.com/
-
-25、恩华云盘：https://pan.ehvip.cn
-
-26、诺灸：https://www.cloudewl.cn
-
-27、凯速网：https://my.ksust.com/
+21、诺灸：https://www.cloudewl.cn
 
 
 ## 短链接制作网址：哪个稳定自己测试。
