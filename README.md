@@ -318,6 +318,26 @@ https://down.52pojie.cn/Tools/
 
 教程在仓库里：https://github.com/dlgt7/TVbox-interface  PDF文件格式，需下载查看，感觉不清楚的话，文件里写有教程出处，都是公众号文章。
 
+
+api解释：
+
+csp_XPath           普通套娃
+
+csp_XPathMac        直链套娃    
+
+csp_XPathFilter     普通套娃带筛选
+
+csp_XPathMacFilter  直链套娃带筛选
+
+csp_XPathEgg        蛋蛋赞自定义套娃
+
+************************************************************************************************************************
+
+
+套娃依赖自定义爬虫jar，同样需要在自定义json中加入相应的配置，type=3, api为csp_XPath，套娃相关规则配置在ext字段中，注意：ext字段值只能是字符串
+
+为控制配置文件容量，同时支持在ext字段中直接配置规则和拉取规则的网址。 2021.10.21 by 小黄瓜
+
 ### Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/dlgt7/TVbox-interface.svg)](https://starchart.cc/dlgt7/TVbox-interface)
