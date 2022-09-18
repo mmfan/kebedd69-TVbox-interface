@@ -351,6 +351,7 @@ csp_XPathEgg        蛋蛋赞自定义套娃
 "api": "csp_api",
 
 "playerType": 1, // 新增字段，用来为该爬虫指定播放器 0 system 1 ijk 2 exo 10 mx，默认-1为配置页面设置的播放器
+
 "searchable": 1,
 
 "quickSearch": 1,
@@ -358,6 +359,8 @@ csp_XPathEgg        蛋蛋赞自定义套娃
 "filterable": 1
 
 },
+
+exo会清晰点。exo不能播阿里系，小苹果。
 
 
 
