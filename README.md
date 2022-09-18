@@ -338,6 +338,29 @@ csp_XPathEgg        蛋蛋赞自定义套娃
 
 为控制配置文件容量，同时支持在ext字段中直接配置规则和拉取规则的网址。 2021.10.21 by 小黄瓜
 
+接口指定播放器写法示例：
+
+{
+
+"key": "csp_key",
+
+"name": "api(SP)",
+
+"type": 3,
+
+"api": "csp_api",
+
+"playerType": 1, // 新增字段，用来为该爬虫指定播放器 0 system 1 ijk 2 exo 10 mx，默认-1为配置页面设置的播放器
+"searchable": 1,
+
+"quickSearch": 1,
+
+"filterable": 1
+
+},
+
+
+
 ### Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/dlgt7/TVbox-interface.svg)](https://starchart.cc/dlgt7/TVbox-interface)
