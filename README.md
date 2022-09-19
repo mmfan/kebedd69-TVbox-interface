@@ -350,7 +350,7 @@ csp_XPathEgg        蛋蛋赞自定义套娃
 
 "api": "csp_api",
 
-"playerType": 1, // 新增字段，用来为该爬虫指定播放器 0 system 1 ijk 2 exo 10 mx，默认-1为配置页面设置的播放器
+"playerType": 1, // 新增字段，用来为该爬虫指定播放器 0:system, 1:ijk, 2:exo, 10:mx，11:Reex,12:Kodi.默认-1为配置页面设置的播放器(app/src/main/java/com/github/tvbox/osc/util/PlayerHelper.java...161行)
 
 "searchable": 1,
 
