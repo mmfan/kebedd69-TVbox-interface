@@ -353,7 +353,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "jar":"https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/yisozc.jar;md5;8d29a86d985a54225af22a82bb9328ee"
-            "ext": "http://刚刚.live/alitoken.json"
+          ,  "ext": "http://刚刚.live/alitoken.json"
         },
         {
             "key": "在线直播",
