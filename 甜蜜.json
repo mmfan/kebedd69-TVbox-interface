@@ -35,7 +35,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "http://刚刚.live/jar2/tvjs/bili.json"
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/bili.json"
         },
         {
             "key": "csp_QQ",
@@ -211,136 +211,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_xBPQ_在线",
-            "name": "️在线之家(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/zxzj2.json"
-        },
-        {
-            "key": "csp_xBPQ_buka",
-            "name": "️不卡影院(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/buka.json"
-        },
-        {
-            "key": "csp_xBPQ_极品",
-            "name": "极品影视(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/jpys.json"
-        },
-        {
-            "key": "csp_xBPQ_cs",
-            "name": "️FreeOK(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/freeok.json"
-        },
-        {
-            "key": "csp_xBPQ_um",
-            "name": "UM影院(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/umkan.json"
-        },
-        {
-            "key": "csp_xBPQ_爱酷",
-            "name": "爱酷影视(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/aiku.json"
-        },
-        {
-            "key": "csp_xBPQ_番茄",
-            "name": "番茄影视(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/fanqie.json"
-        },
-        {
-            "key": "csp_xBPQ_瓜皮TV",
-            "name": "瓜皮影视(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/guapi.json"
-        },
-        {
-            "key": "csp_xBPQ_蓝光",
-            "name": "蓝光影院(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/lgyy.json"
-        },
-        {
-            "key": "csp_xBPQ_酷客",
-            "name": "酷客影院(XBPQ)",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/kuke.json"
-        },
-        {
-            "key": "csp_XYQBiu_lingyun",
-            "name": "凌云影视(XYQ)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/lingyun.json"
-        },
-        {
-            "key": "csp_XYQBiu_wanneng",
-            "name": "万能影视(XYQ)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://刚刚.live/jar2/tvjs/wanneng.json"
-        },
-        {
-            "key": "csp_XYQBiu_大米星球",
-            "name": "大米星球(XYQ)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://刚刚.live/jar2/tvjs/dmxq2.json"
-        },
-        {
             "key": "Gitcafe",
             "name": "小纸条(SP)",
             "type": 3,
@@ -349,7 +219,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://刚刚.live/alitoken.json"
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         },
         {
             "key": "zhaozy",
@@ -360,7 +230,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://刚刚.live/alitoken.json"
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         },
         {
             "key": "AliPS",
@@ -371,7 +241,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://刚刚.live/alitoken.json"
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         },
         {
             "key": "Upyunso",
@@ -382,7 +252,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://刚刚.live/alitoken.json",
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json",
             "jar": ""
         },
         {
@@ -395,7 +265,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "jar": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/yisozc.jar;md5;8d29a86d985a54225af22a82bb9328ee",
-            "ext": "http://刚刚.live/alitoken.json"
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         },
         {
             "key": "在线直播",
@@ -414,7 +284,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "http://刚刚.live/alitoken.json"
+            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         }
     ],
     "lives": [
