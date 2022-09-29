@@ -314,7 +314,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRjb2RlLm5ldC9iZC92Ly0vcmF3L21haW4vbGl2ZS96Yi50eHQ="
+                        "proxy://do=live&type=txt&ext=aHR0cDovL3R2Lmp0aG4uY24vbGl2ZXMvbGl2ZV9wbHVzLnR4dA=="
                     ]
                 }
             ]
@@ -337,32 +337,32 @@
             "url": "Sequence"
         },
         {
-            "name": "GG",
+            "name": "风起陇西1",
             "type": 1,
             "url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiiii&url="
         },
         {
-            "name": "GG搜集",
+            "name": 风起长林2",
             "type": 1,
             "url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="
         },
         {
-            "name": "Fosi嗅探",
+            "name": "风起苍岚",
             "type": 0,
             "url": "https://play.fositv.com/?url="
         },
         {
-            "name": "OKjx嗅探",
+            "name": "风起云涌",
             "type": 0,
             "url": "https://okjx.cc/?url="
         },
         {
-            "name": "爱酷嗅探",
+            "name": "风起天阑",
             "type": 0,
             "url": "https://jx.zhanlangbu.com/?url="
         },
         {
-            "name": "江湖",
+            "name": "风起江湖",
             "type": 1,
             "url": "http://211.99.99.236:4567/jhjson/ceshi.php?url="
         }
