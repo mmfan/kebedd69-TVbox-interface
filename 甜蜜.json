@@ -231,6 +231,21 @@
             "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/胖虎影视.json"         
         },
         {
+
+   "key": "多多资源",
+
+   "name": "多多资源(切)",
+
+   "type": 1,
+
+   "api": "https://www.ddzyz1.com/api.php/provide/vod/",
+
+   "searchable": 1,
+
+   "quickSearch": 1
+
+  },
+        {
             "key": "Gitcafe",
             "name": "小纸条(SP)",
             "type": 3,
@@ -287,6 +302,7 @@
             "jar": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/yisozc.jar;md5;8d29a86d985a54225af22a82bb9328ee",
             "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         },
+        {"key":"csp_xpath_qiumi","name":"球迷直播","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://刚刚.live/json/qiumi.json"},
         {
             "key": "在线直播",
             "name": "在线直播(SP)",
