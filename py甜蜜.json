@@ -2,7 +2,7 @@
     "sites": [
         {
             "key": "py_kunyu77",
-            "name": "酷云77",
+            "name": "酷云七七",
             "type": 3,
             "api": "py_kunyu77",
             "searchable": 0,
@@ -216,6 +216,14 @@
             "name": "解析聚合",
             "type": 3,
             "url": "Demo"
+        },
+        {
+            "name": "普通嗅探",
+            "type": 0,
+            "url": "",
+            "header": {
+                "User-Agent": "Mozilla/5.0"
+            }
         },
         {
             "name": "Json并发",
