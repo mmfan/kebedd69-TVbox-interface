@@ -303,7 +303,18 @@
             "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
         },
         {"key":"csp_xpath_qiumi","name":"球迷直播","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://刚刚.live/json/qiumi.json"},
-        {
+      {
+            "key": "csp_XYQHiker_17zhibo",
+            "name": "17k直播(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://kebedd69.github.io/TVbox-interface/17k直播.json",
+            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_0926.jar;md5;5555084b40f00191957d9aede81ecb5f"
+        },
+      {
             "key": "在线直播",
             "name": "在线直播(SP)",
             "type": 3,
