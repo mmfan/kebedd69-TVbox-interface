@@ -20,6 +20,16 @@
             "filterable": 1,
             "ext": "https://kebedd69.github.io/TVbox-interface/py/py_bilivd.py"
         },
+{
+            "key": "py_douban.py",
+            "name": "豆瓣推荐",
+            "type": 3,
+            "api": "py_douban.py",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_douban.py"
+        },
         {
             "key": "py_3qu",
             "name": "3QU",
