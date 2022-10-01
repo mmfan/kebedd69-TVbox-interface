@@ -231,19 +231,12 @@
             "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/胖虎影视.json"         
         },
         {
-
    "key": "多多资源",
-
    "name": "多多资源(切)",
-
    "type": 1,
-
    "api": "https://www.ddzyz1.com/api.php/provide/vod/",
-
    "searchable": 1,
-
    "quickSearch": 1
-
   },
         {
             "key": "Gitcafe",
@@ -652,5 +645,6 @@
         "cms.qdwght.com"
     ],
     "wallpaper": "https://tool.weetai.cn/api",
-    "spider": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/gg0925.jar;md5;b273ac2e81f1326724494fff3ad88634"
+    /*"spider": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/gg0925.jar;md5;b273ac2e81f1326724494fff3ad88634"*/
+"spider": "https://kebedd69.github.io/TVbox-interface/ext/1001.jar;md5;c474a7a9d106ef348f4ebdc7705c6d38"
 }
