@@ -16,7 +16,8 @@
             "api": "csp_Kunyu77",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "jar":"https://kebedd69.github.io/TVbox-interface/ext/1003seven+.jar;md5;5f6a69ac1b85bc9f4fc3b352009c6739"
         },
         {
             "key": "桉t4",
@@ -380,6 +381,11 @@
             "name": "风起天阑",
             "type": 0,
             "url": "https://jx.zhanlangbu.com/?url="
+        },
+        {
+            "name": "风起长安",
+            "type": 1,
+            "url": "http://chaloli.cn/home/api?type=ys&uid=1942949&key=klmnqADJQRUV024678&url="
         },
         {
             "name": "风起江湖",
