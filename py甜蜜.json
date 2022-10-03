@@ -228,14 +228,6 @@
             "url": "Demo"
         },
         {
-            "name": "普通嗅探",
-            "type": 0,
-            "url": "",
-            "header": {
-                "User-Agent": "Mozilla/5.0"
-            }
-        },
-        {
             "name": "Json并发",
             "type": 2,
             "url": "Parallel"
@@ -274,7 +266,20 @@
             "name": "风起江湖",
             "type": 1,
             "url": "http://211.99.99.236:4567/jhjson/ceshi.php?url="
-        }
+        },
+        {
+            "name": "风起长安",
+            "type": 0,
+            "url": "http://jx.gbxy.net.cn/?url="
+        },
+        {
+            "name": "普通嗅探",
+            "type": 0,
+            "url": "",
+            "header": {
+            "User-Agent": "Mozilla/5.0"
+            }
+            }
 
     ],
     "lives": [
