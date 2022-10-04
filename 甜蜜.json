@@ -1,4 +1,22 @@
 {
+    "rules": [
+        {
+            "host": "v.douyin.com",
+            "rule": [
+                "douyinvod.com",
+                "/video/tos/cn/",
+                "mime_type="
+            ]
+        },
+        {
+            "host": "www.iesdouyin.com",
+            "rule": [
+                "douyinvod.com",
+                "/video/tos/cn/",
+                "mime_type="
+            ]
+        }
+    ],
     "sites": [
         {
             "key": "360",
