@@ -51,6 +51,16 @@
             "ext": "https://kebedd69.github.io/TVbox-interface/py/py_cctv.py"
         },
         {
+            "key": "py_jrskbs",
+            "name": "jrskbs",
+            "type": 3,
+            "api": "py_jrskbs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_jrskbs.py"
+        },
+        {
 		"key": "py_qie",
 		"name": "企鹅体育",
 		"type": 3,
