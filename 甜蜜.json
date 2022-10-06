@@ -1,21 +1,18 @@
 {
     "rules": [
         {
-            "host": "v.douyin.com",
+            "host": "*",
             "rule": [
-                "douyinvod.com",
-                "/video/tos/cn/",
-                "mime_type="
+                "livehls.ltjuq.top",
+                "ofmatch"
+               
             ]
         },
-        {
-            "host": "www.iesdouyin.com",
-            "rule": [
-                "douyinvod.com",
-                "/video/tos/cn/",
-                "mime_type="
-            ]
-        }
+        
+  {"host":"*", "rule":["douyinvod.com", "/video/tos/cn/"]},
+  {"host":"*", "rule":["default.365yg.com", "/video/tos/cn/"]},
+  {"host":"zjmiao.com", "rule":["play.videomiao.vip/API.php", "time=", "key=", "path="]}
+        
     ],
     "sites": [
         {
