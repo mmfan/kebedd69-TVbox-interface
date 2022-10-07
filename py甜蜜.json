@@ -258,7 +258,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_ali.py"
+            "ext": "https://kebedd69.github.io/TVbox-interface/py_ali.py"
         },
         {
             "key": "push_agent",
@@ -268,7 +268,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
         }
     ],
     "parses": [
