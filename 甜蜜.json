@@ -328,7 +328,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
         },
         {
             "key": "zhaozy",
@@ -339,7 +339,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
         },
         {
             "key": "AliPS",
@@ -350,7 +350,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
         },
         {
             "key": "Upyunso",
@@ -361,7 +361,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json",
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json",
             "jar": ""
         },
         {
@@ -374,7 +374,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "jar": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/yisozc.jar;md5;8d29a86d985a54225af22a82bb9328ee",
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
         },
         {
             "key": "csp_xpath_qiumi",
@@ -414,7 +414,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/token.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
         }
     ],
     "lives": [
