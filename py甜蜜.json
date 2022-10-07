@@ -101,6 +101,16 @@
             "ext": "https://kebedd69.github.io/TVbox-interface/py/py_cyys.py"
         },
         {
+            "key": "py_lezhutv",
+            "name": "乐猪TV",
+            "type": 3,
+            "api": "py_lezhutv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_lezhutv.py"
+        },
+        {
             "key": "py_zxzj",
             "name": "在线之家",
             "type": 3,
