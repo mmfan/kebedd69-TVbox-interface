@@ -68,7 +68,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/bili.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/bili.json"
         },
         {
             "key": "csp_QQ",
@@ -251,7 +251,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/子子影视.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/子子影视.json"
         },
         {
             "key": "csp_xbpq_胖虎影视",
@@ -261,7 +261,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://raw.iqiq.io/kebedd69/TVbox-interface/main/胖虎影视.json"
+            "ext": "https://kebedd69.github.io/TVbox-interface/胖虎影视.json"
         },
         {
             "key": "快播",
@@ -357,7 +357,6 @@
             "name": "up云搜（仅搜索）",
             "type": 3,
             "api": "csp_Upyunso",
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -809,5 +808,5 @@
         "cms.qdwght.com"
     ],
     "wallpaper": "https://tool.weetai.cn/api",
-    "spider": "https://kebedd69.github.io/TVbox-interface/ext/1001.jar;md5;c474a7a9d106ef348f4ebdc7705c6d38"
+    "spider": "https://kebedd69.github.io/TVbox-interface/ext/1007.jar;md5;76c55c461dea565fc8e8c165b3e889b1"
 }
