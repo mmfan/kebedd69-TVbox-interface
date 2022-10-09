@@ -3,18 +3,20 @@
 // import 'http://192.168.1.124:5705/libs/es6py.js';
 import cheerio from 'https://kebedd69.github.io/TVbox-interface/libs/cheerio.min.js';
 // import cheerio from 'http://192.168.10.103:5705/libs/cheerio.min.js';
-
+import 'https://kebedd69.github.io/TVbox-interface/libs/crypto-js.js';
 import 'https://kebedd69.github.io/TVbox-interface/libs/drT.js';
 // import 'http://192.168.10.103:5705/libs/drT.js';
-import muban from 'https://kebedd69.github.io/TVbox-interface/js/模板.js';
+// import muban from 'https://kebedd69.github.io/TVbox-interface/js/模板.js';
 // import muban from 'http://192.168.10.103:5705/admin/view/模板.js';
 
 // const key = 'drpy_zbk';
 // eval(req('http://192.168.1.124:5705/libs/es6py.js').content);
 function init_test(){
+    // console.log(typeof(CryptoJS));
     console.log("init_test_start");
     console.log(RKEY);
     console.log(JSON.stringify(rule));
+    // console.log('123456的md5值是:'+md5('123456'));
     // let aa = base64Encode('编码测试一下')
     // log(aa);
     // let bb = base64Decode(aa);
@@ -31,14 +33,14 @@ function init_test(){
 
 let rule = {};
 /** 已知问题记录
- * 1.影魔的jinjia2引擎不支持 {{fl}}对象直接渲染 (有能力解决的话尽量解决下，支持对象直接渲染字符串转义,如果加了|safe就不转义)
+ * 1.影魔的jinjia2引擎不支持 {{fl}}对象直接渲染 (有能力解决的话尽量解决下，支持对象直接渲染字符串转义,如果加了|safe就不转义)[影魔牛逼，最新的文件发现这问题已经解决了]
  * Array.prototype.append = Array.prototype.push; 这种js执行后有毛病,for in 循环列表会把属性给打印出来 (这个大毛病需要重点排除一下)
  * 2.import es6py.js但是里面的函数没有被装载进来.比如drpy规则报错setResult2 is undefiend(合并文件了可以不管了)
  * 3.无法重复导入cheerio(怎么解决drpy和parseTag里都需要导入cheerio的问题) 无法在副文件导入cheerio (现在是全部放在drpy一个文件里了,凑合解决?)
- * 4.有个错误不知道哪儿来的 executeScript: com.quickjs.JSObject$Undefined cannot be cast to java.lang.String 在 点击选集播放打印init_test_end后面打印(可以不管了)
+ * 4.有个错误不知道哪儿来的 executeScript: com.quickjs.JSObject$Undefined cannot be cast to java.lang.String 在 点击选集播放打印init_test_end后面打印(貌似不影响使用)
  * 5.需要实现 stringify 函数,比起JSON.stringify函数,它会原封不动保留中文不会编码unicode
- * 6.base64Encode和base64Decode函数还没有实现
- * 7.eval(getCryptoJS());还没有实现
+ * 6.base64Encode,base64Decode,md5函数还没有实现 (抄影魔代码实现了)
+ * 7.eval(getCryptoJS());还没有实现 (可以空实现了,以后遇到能忽略)
  * done:  jsp:{pdfa,pdfh,pd},json:{pdfa,pdfh,pd},jq:{pdfa,pdfh,pd}
  *  * 电脑看日志调试
  adb tcpip 5555
@@ -265,9 +267,39 @@ function setHomeResult(res){
     }
     return setResult(res.list);
 }
+// 猫了个咪
+function rc(js) {
+    if (js === 'maomi_aes.js') {
+        var a = CryptoJS.enc.Utf8.parse("625222f9149e961d");
+        var t = CryptoJS.enc.Utf8.parse("5efdtf6060e2o330");
+        return {
+            De: function (word) {
+                word = CryptoJS.enc.Hex.parse(word)
+                return CryptoJS.AES.decrypt(CryptoJS.enc.Base64.stringify(word), a, {
+                    iv: t,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                }).toString(CryptoJS.enc.Utf8)
+            },
+            En: function (word) {
+                // print(a);
+                // print(word);
+                var Encrypted = CryptoJS.AES.encrypt(word, a, {
+                    iv: t,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                return Encrypted.ciphertext.toString();
+            }
+        };
+    }
+    return {};
+}
+
 // 千万不要用for in 推荐 forEach (for in 会打乱顺序)
 //猫函数
 function maoss(jxurl, ref, key) {
+    fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
     eval(getCryptoJS());
     try {
         var getVideoInfo = function (text) {
@@ -321,17 +353,26 @@ function urlencode (str) {
 }
 
 function base64Encode(text){
-    // return Base64.encode(text)
-    return text
+    return CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(text));
+    // return text
 }
 
 function base64Decode(text){
-    // return Base64.decode(text)
-    return text
+    return CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Base64.parse(text));
+    // return text
 }
 
-globalThis.VODS = [];// 一级或者搜索需要的数据列表
-globalThis.VOD = {};// 二级的单个数据
+function md5(text) {
+    return CryptoJS.MD5(text).toString();
+}
+
+function getCryptoJS(){
+    // return request('https://kebedd69.github.io/TVbox-interface/libs/crypto-hiker.js');
+    return 'console.log("CryptoJS已装载");'
+}
+
+let VODS = [];// 一级或者搜索需要的数据列表
+let VOD = {};// 二级的单个数据
 globalThis.encodeUrl = urlencode;
 globalThis.urlencode = urlencode;
 
@@ -458,10 +499,18 @@ const parseTags = {
     },
     jq:{
         pdfh(html, parse, base_url) {
-            if (!parse || !parse.trim()){
+            if (!parse || !parse.trim()) {
                 return ''
             }
+            let eleFind = typeof html === 'object';
             let option = undefined;
+            if (eleFind && parse.startsWith('body&&')) {
+                parse = parse.substr(6);
+                if (parse.indexOf('&&') < 0) {
+                    option = parse.trim();
+                    parse = '*=*';
+                }
+            }
             if (parse.indexOf('&&') > -1) {
                 let sp = parse.split('&&');
                 option = sp[sp.length - 1];
@@ -480,23 +529,23 @@ const parseTags = {
                 parse = sp.join(' ');
             }
             let result = '';
-            const $ = cheerio.load(html);
-            let ret = $(parse);
+            const $ = eleFind ? html.rr : cheerio.load(html);
+            let ret = eleFind ? ((parse === '*=*' || $(html.ele).is(parse)) ? html.ele : $(html.ele).find(parse)) : $(parse);
             if (option) {
-                if (option === 'Text'){
+                if (option === 'Text') {
                     result = $(ret).text();
                 }
-                else if (option === 'Html'){
+                else if (option === 'Html') {
                     result = $(ret).html();
                 }
-                else{
+                else {
                     result = $(ret).attr(option);
                 }
                 if (result && base_url && DOM_CHECK_ATTR.test(option)) {
-                    if(/http/.test(result)){
+                    if (/http/.test(result)) {
                         result = result.substr(result.indexOf('http'));
-                    }else{
-                        result = urljoin(base_url,result)
+                    } else {
+                        result = urljoin(base_url, result)
                     }
                 }
             } else {
@@ -505,9 +554,10 @@ const parseTags = {
             return result;
         },
         pdfa(html, parse) {
-            if (!parse || !parse.trim()){
+            if (!parse || !parse.trim()) {
                 return [];
             }
+            let eleFind = typeof html === 'object';
             if (parse.indexOf('&&') > -1) {
                 let sp = parse.split('&&');
                 for (let i in sp) {
@@ -517,12 +567,12 @@ const parseTags = {
                 }
                 parse = sp.join(' ');
             }
-            const $ = cheerio.load(html);
-            let ret = $(parse);
+            const $ = eleFind ? html.rr : cheerio.load(html);
+            let ret = eleFind ? ($(html.ele).is(parse) ? html.ele : $(html.ele).find(parse)) : $(parse);
             let result = [];
             if (ret) {
                 ret.each(function (idx, ele) {
-                    result.push($(ele).toString());
+                    result.push({ rr: $, ele: ele });
                 });
             }
             return result;
@@ -546,6 +596,7 @@ const parseTags = {
 
 const stringify = JSON.stringify;
 const jsp = parseTags.jsp;
+const jq = parseTags.jq;
 
 /*** 后台需要实现的java方法并注入到js中 ***/
 
@@ -872,6 +923,7 @@ function homeParse(homeObj) {
             try {
                 let html = getHtml(homeObj.MY_URL);
                 if (html) {
+                    homeHtmlCache = html;
                     let list = pdfa(html, p[0]);
                     if (list && list.length > 0) {
                         list.forEach((it,idex) => {
@@ -887,8 +939,8 @@ function homeParse(homeObj) {
                                 }
 
                                 classes.push({
-                                    'type_id': url,
-                                    'type_name': name
+                                    'type_id': url.trim(),
+                                    'type_name': name.trim()
                                 });
                             } catch (e) {
                                 console.log(`分类列表定位第${idex}个元素正常报错:${e.message}`);
@@ -951,7 +1003,8 @@ function homeVodParse(homeVodObj){
         let is_json = p[0].startsWith('json:');
         p[0] = p[0].replace(/^(jsp:|json:|jq:)/,'');
         // print(p[0]);
-        let html = getHtml(MY_URL);
+        let html = homeHtmlCache || getHtml(MY_URL);
+        homeHtmlCache = undefined;
         if(is_json){
             // print('是json,开始处理');
             html = dealJson(html);
@@ -1067,6 +1120,7 @@ function categoryParse(cateObj) {
         let fl = cateObj.filter?cateObj.extend:{};
         let new_url;
         new_url = cheerio.jinja2(url,{fl:fl});
+        // console.log('jinjia2执行后的new_url类型为:'+typeof(new_url));
         if(/object Object/.test(new_url)){
             new_url = drT.renderText(url,fl);
         }
@@ -1249,7 +1303,7 @@ function searchParse(searchObj) {
 function detailParse(detailObj){
     fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
     let vod = {
-        vod_id: "id",
+        vod_id: detailObj.orId, //"id",
         vod_name: "片名",
         vod_pic: "",
         type_name: "剧情",
@@ -1285,16 +1339,22 @@ function detailParse(detailObj){
         if(!html){
             html = getHtml(MY_URL);
         }
+        let _impJQP = true;
         let _ps;
         if(p.is_json){
             _ps = parseTags.json;
             html = dealJson(html);
+            _impJQP = false;
         }else if(p.is_jsp){
             _ps = parseTags.jsp;
         }else if(p.is_jq){
             _ps = parseTags.jq;
         }else{
             _ps = parseTags.jq;
+        }
+        if (_impJQP) {
+            let c$ = cheerio.load(html);
+            html = { rr: c$, ele: c$('html')[0] }
         }
         _pdfa = _ps.pdfa;
         _pdfh = _ps.pdfh;
@@ -1338,6 +1398,10 @@ function detailParse(detailObj){
         let playFrom = [];
         if(p.重定向&&p.重定向.startsWith('js:')){
             html = eval(p.重定向.replace('js:',''));
+            if (_impJQP) {
+                let c$ = cheerio.load(html);
+                html = { rr: c$, ele: c$('html')[0] }
+            }
         }
         
 // console.log(2);
@@ -1386,7 +1450,8 @@ function detailParse(detailObj){
                 vodList.forEach(it=>{
                     // 请注意,这里要固定pdfh解析body&&Text,不需要下划线,没写错
                     // new_vod_list.push(pdfh(it,'body&&Text')+'$'+_pd(it,'a&&href',MY_URL));
-                    new_vod_list.push(cheerio.load(it).text()+'$'+_pd(it,'a&&href',MY_URL));
+                    // new_vod_list.push(cheerio.load(it).text()+'$'+_pd(it,'a&&href',MY_URL));
+                    new_vod_list.push(_pdfh(it, 'body&&Text') + '$' + _pd(it, 'a&&href', MY_URL));
                 });
                 let vlist = new_vod_list.join('#');
                 vod_tab_list.push(vlist);
@@ -1450,6 +1515,14 @@ function playParse(playObj){
  function init(ext) {
     console.log('init');
     try {
+        // make shared jsContext happy muban不能import,不然会造成换源继承后变量被篡改
+        if (typeof (globalThis.mubanJs) === 'undefined') {
+            let mubanJs = request('https://kebedd69.github.io/TVbox-interface/js/模板.js', { 'User-Agent': MOBILE_UA });
+            mubanJs = mubanJs.replace('export default', '(function() {return muban;}()) // export default');
+            // console.log(mubanJs);
+            globalThis.mubanJs = mubanJs;
+        }
+        let muban = eval(globalThis.mubanJs);
         if (typeof ext == 'object'){
             rule = ext;
             if (rule.template) {
@@ -1518,6 +1591,8 @@ function playParse(playObj){
     }
 }
 
+let homeHtmlCache = undefined;
+
 /**
  * js源获取首页分类和筛选特定返回对象中的函数
  * @param filter 筛选条件字典对象
@@ -1579,6 +1654,7 @@ function category(tid, pg, filter, extend) {
  * @returns {string}
  */
 function detail(vod_url) {
+    let orId = vod_url;
     let fyclass = '';
     if(vod_url.indexOf('$')>-1){
         let tmp = vod_url.split('$');
@@ -1595,6 +1671,7 @@ function detail(vod_url) {
         url = detailUrl
     }
     let detailObj = {
+        orId: orId,
         url:url,
         二级:rule.二级,
         detailUrl:detailUrl,
