@@ -125,7 +125,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 			'vod_name':infoJo['share_name'],
 			'vod_pic':infoJo['avatar'],
 			'vod_content':tid,
-			'vod_play_from':'AliYun$$$AliYun原画'
+			'vod_play_from':'AliYun原画$$$AliYun'
 		}
 		fileType = fileInfo['type']
 		if fileType != 'folder':
@@ -317,7 +317,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return [200, "application/octet-stream", action, content]
 
 	def localProxy(self,param):
-		self.login()
 		typ = param['type']
 		if typ == "m3u8":
 			return self.proxyM3U8(param)
@@ -394,12 +393,8 @@ class Spider(Spider):  # 元类 默认的元类 type
 			form = {
 				'refresh_token':'3865f0ab8f124688ad786a262af9b940'
 			}
-			if len(self.extend) > 0:
-				form['refresh_token'] = self.extend
-			print(form)
 			rsp = requests.post(url,json = form,headers=self.header)
 			jo = json.loads(rsp.text)
-			print(jo)
 			self.authorization = jo['token_type'] + ' ' + jo['access_token']
 			self.expiresIn = int(jo['expires_in'])
 			self.timeoutTick = self.localTime + self.expiresIn
