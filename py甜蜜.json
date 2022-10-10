@@ -181,6 +181,36 @@
             "ext": "https://kebedd69.github.io/TVbox-interface/py/py_douyu.py"
         },
         {
+            "key": "py_yixi",
+            "name": "一席讲坛",
+            "type": 3,
+            "api": "py_yixi",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_yixi.py"
+        },
+        {
+            "key": "py_freezb",
+            "name": "free直播",
+            "type": 3,
+            "api": "py_freezb",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_freezb.py"
+        },
+        {
+            "key": "py_cilidog",
+            "name": "磁力狗",
+            "type": 3,
+            "api": "py_cilidog",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_cilidog.py"
+        },
+        {
             "key": "py_cokemv",
             "name": "COKE",
             "type": 3,
@@ -258,7 +288,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://kebedd69.github.io/TVbox-interface/py_ali.py?extend=3865f0ab8f124688ad786a262af9b940"
+            "ext": "https://kebedd69.github.io/TVbox-interface/py_ali.py"
         },
         {
             "key": "push_agent",
