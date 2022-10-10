@@ -182,7 +182,7 @@
         },
         {
             "key": "py_yixi",
-            "name": "一席讲坛",
+            "name": "一席",
             "type": 3,
             "api": "py_yixi",
             "searchable": 0,
@@ -199,16 +199,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "https://kebedd69.github.io/TVbox-interface/py/py_freezb.py"
-        },
-        {
-            "key": "py_cilidog",
-            "name": "磁力狗",
-            "type": 3,
-            "api": "py_cilidog",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://kebedd69.github.io/TVbox-interface/py/py_cilidog.py"
         },
         {
             "key": "py_cokemv",
