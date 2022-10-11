@@ -289,7 +289,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "jar": "https://kebedd69.github.io/TVbox-interface/ext/1001.jar;md5;c474a7a9d106ef348f4ebdc7705c6d38",
-            "ext": "https://kebedd69.github.io/TVbox-interface/token.json"
+            "ext": "3865f0ab8f124688ad786a262af9b940"
         }
     ],
     "parses": [
@@ -348,6 +348,40 @@
             "name": "风起战澜",
             "type": 0,
             "url": "https://jx.zhanlangbu.com/?url="
+        },
+        {
+            "name": "风起安峰",
+            "url": "http://101.34.67.237:5705/parse/api/鸿途.js?url=",
+            "type": 1,
+            "ext": {
+                "flag": [
+                    "qiyi",
+                    "imgo",
+                    "爱奇艺",
+                    "奇艺",
+                    "qq",
+                    "腾讯",
+                    "youku",
+                    "优酷",
+                    "pptv",
+                    "PPTV",
+                    "letv",
+                    "乐视",
+                    "leshi",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩",
+                    "mgtv",
+                    "芒果",
+                    "sohu",
+                    "xigua",
+                    "fun",
+                    "风行"
+                ],
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            }
         },
         {
             "name": "风起许都",
