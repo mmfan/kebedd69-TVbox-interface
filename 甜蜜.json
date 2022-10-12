@@ -103,6 +103,16 @@
             "searchable": 1
         },
         {
+            "key": "csp_Nmys",
+            "name": "农民影视(SP)",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/json/nmys.json"
+        },
+        {
             "key": "Lib",
             "name": "Libvio(SP)",
             "type": 3,
