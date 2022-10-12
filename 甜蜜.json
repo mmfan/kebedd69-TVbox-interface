@@ -150,15 +150,6 @@
             "filterable": 1
         },
         {
-            "key": "神马影院",
-            "name": "神马(SP)",
-            "type": 3,
-            "api": "csp_Smdyy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "厂长影视",
             "name": "厂长(SP)",
             "type": 3,
@@ -180,24 +171,6 @@
             "key": "日漫",
             "name": "日漫(SP)",
             "api": "csp_Anime1",
-            "type": 3,
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1
-        },
-        {
-            "key": "Dy555",
-            "name": "555(SP)",
-            "type": 3,
-            "api": "csp_Dy555",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Wmkk",
-            "name": "完美看看(SP)",
-            "api": "csp_Wmkk",
             "type": 3,
             "filterable": 1,
             "quickSearch": 1,
@@ -253,6 +226,50 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://kebedd69.github.io/TVbox-interface/胖虎影视.json"
+        },
+        {
+            "key": "csp_XYQBiu_神马影视",
+            "name": "神马影视(XYQ)",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/json/神马XYQ.json",
+            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_1010.jar;md5;fcd98e252d5b3cce900f0ce8143d8843"
+        },
+        {
+            "key": "csp_XYQBiu_大米星球",
+            "name": "大米星球(XYQ)",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/json/大米XYQ.json",
+            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_1010.jar;md5;fcd98e252d5b3cce900f0ce8143d8843"
+        },
+        {
+            "key": "csp_XYQBiu_虎牙直播",
+            "name": "虎牙直播(XYQ)",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/json/虎牙XYQ.json",
+            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_1010.jar;md5;fcd98e252d5b3cce900f0ce8143d8843"
+        },
+        {
+            "key": "csp_XYQBiu_斗鱼直播",
+            "name": "斗鱼直播(XYQ)",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kebedd69.github.io/TVbox-interface/json/斗鱼XYQ.json",
+            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_1010.jar;md5;fcd98e252d5b3cce900f0ce8143d8843"
         },
         {
             "key": "快播",
@@ -385,7 +402,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "https://kebedd69.github.io/TVbox-interface/17k直播.json",
-            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_0926.jar;md5;5555084b40f00191957d9aede81ecb5f"
+            "jar": "https://kebedd69.github.io/TVbox-interface/XYQPlugin_1010.jar;md5;fcd98e252d5b3cce900f0ce8143d8843"
         },
         {
             "key": "在线直播",
