@@ -1,12 +1,12 @@
-// import 'https://kebedd69.github.io/TVbox-interface/libs/es6py.js';
+// import 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/es6py.js';
 // import {是否正版,urlDeal,setResult,setResult2,setHomeResult,maoss,urlencode} from 'http://192.168.10.103:5705/libs/es6py.js';
 // import 'http://192.168.1.124:5705/libs/es6py.js';
-import cheerio from 'https://kebedd69.github.io/TVbox-interface/libs/cheerio.min.js';
+import cheerio from 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/cheerio.min.js';
 // import cheerio from 'http://192.168.10.103:5705/libs/cheerio.min.js';
-import 'https://kebedd69.github.io/TVbox-interface/libs/crypto-js.js';
-import 'https://kebedd69.github.io/TVbox-interface/libs/drT.js';
+import 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/crypto-js.js';
+import 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drT.js';
 // import 'http://192.168.10.103:5705/libs/drT.js';
-// import muban from 'https://kebedd69.github.io/TVbox-interface/js/模板.js';
+// import muban from 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js';
 // import muban from 'http://192.168.10.103:5705/admin/view/模板.js';
 
 // const key = 'drpy_zbk';
@@ -367,7 +367,7 @@ function md5(text) {
 }
 
 function getCryptoJS(){
-    // return request('https://kebedd69.github.io/TVbox-interface/libs/crypto-hiker.js');
+    // return request('https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/crypto-hiker.js');
     return 'console.log("CryptoJS已装载");'
 }
 
@@ -411,15 +411,53 @@ function urljoin(fromPath, nowPath) {
     // }
 }
 var urljoin2 = urljoin;
+
+// 内置 pdfh,pdfa,pd
+const defaultParser = {
+    pdfh:pdfh,
+    pdfa:pdfa,
+    pd(html,parse,uri){
+        let ret = this.pdfh(html,parse);
+        if(typeof(uri)==='undefined'||!uri){
+            uri = '';
+        }
+        if(DOM_CHECK_ATTR.test(parse)){
+            if(/http/.test(ret)){
+                ret = ret.substr(ret.indexOf('http'));
+            }else{
+                ret = urljoin(MY_URL,ret)
+            }
+        }
+        return ret
+    },
+};
+
 /**
- * 重写pd方法-增加自动urljoin(没法重写,改个名继续骗)
+ *  pdfh原版优化,能取style属性里的图片链接
+ * @param html 源码
+ * @param parse 解析表达式
+ * @returns {string|*}
+ */
+function pdfh2(html,parse){
+    let result = defaultParser.pdfh(html,parse);
+    let option = parse.includes('&&')?parse.split('&&').slice(-1)[0]:parse.split(' ').slice(-1)[0];
+    if(/style/.test(option.toLowerCase())&&/url\(/.test(result)){
+        try {
+            result =  result.match(/url\((.*?)\)/)[1];
+        }catch (e) {}
+    }
+    return result
+}
+
+/**
+ * pd原版方法重写-增加自动urljoin
  * @param html
  * @param parse
  * @param uri
  * @returns {*}
  */
-function pD(html,parse,uri){
-    let ret = pdfh(html,parse);
+function pd2(html,parse,uri){
+    let ret = pdfh2(html,parse);
     if(typeof(uri)==='undefined'||!uri){
         uri = '';
     }
@@ -437,9 +475,9 @@ function pD(html,parse,uri){
 
 const parseTags = {
     jsp:{
-        pdfh:pdfh,
-        pdfa:pdfa,
-        pd:pD,
+        pdfh:pdfh2,
+        pdfa:defaultParser.pdfa,
+        pd:pd2,
     },
     json:{
         pdfh(html, parse) {
@@ -540,6 +578,11 @@ const parseTags = {
                 }
                 else {
                     result = $(ret).attr(option);
+                    if(/style/.test(option.toLowerCase())&&/url\(/.test(result)){
+                        try {
+                            result =  result.match(/url\((.*?)\)/)[1];
+                        }catch (e) {}
+                    }
                 }
                 if (result && base_url && DOM_CHECK_ATTR.test(option)) {
                     if (/http/.test(result)) {
@@ -1517,7 +1560,7 @@ function playParse(playObj){
     try {
         // make shared jsContext happy muban不能import,不然会造成换源继承后变量被篡改
         if (typeof (globalThis.mubanJs) === 'undefined') {
-            let mubanJs = request('https://kebedd69.github.io/TVbox-interface/js/模板.js', { 'User-Agent': MOBILE_UA });
+            let mubanJs = request('https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js', { 'User-Agent': MOBILE_UA });
             mubanJs = mubanJs.replace('export default', '(function() {return muban;}()) // export default');
             // console.log(mubanJs);
             globalThis.mubanJs = mubanJs;
