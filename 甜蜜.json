@@ -22,7 +22,7 @@
             "key": "桉t4",
             "name": "豆瓣榜单（桉T4）",
             "type": 4,
-            "api": "https://t4.secan.icu/vod?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=6",
+            "api": "https://t4.secan.icu/vod?sites=all&ali_token=ab0b9a7555e84175bbc6f8e60310ae49&timeout=6",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -336,7 +336,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "3865f0ab8f124688ad786a262af9b940"
+            "ext": "ab0b9a7555e84175bbc6f8e60310ae49"
         },
         {
             "key": "zhaozy",
@@ -347,7 +347,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "3865f0ab8f124688ad786a262af9b940"
+            "ext": "ab0b9a7555e84175bbc6f8e60310ae49"
         },
         {
             "key": "AliPS",
@@ -358,7 +358,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "3865f0ab8f124688ad786a262af9b940"
+            "ext": "ab0b9a7555e84175bbc6f8e60310ae49"
         },
         {
             "key": "Upyunso",
@@ -368,7 +368,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "3865f0ab8f124688ad786a262af9b940",
+            "ext": "ab0b9a7555e84175bbc6f8e60310ae49",
             "jar": ""
         },
         {
@@ -381,7 +381,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "jar": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/yisozc.jar;md5;8d29a86d985a54225af22a82bb9328ee",
-            "ext": "3865f0ab8f124688ad786a262af9b940"
+            "ext": "ab0b9a7555e84175bbc6f8e60310ae49"
         },
         {
             "key": "csp_xpath_qiumi",
@@ -421,7 +421,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "3865f0ab8f124688ad786a262af9b940"
+            "ext": "ab0b9a7555e84175bbc6f8e60310ae49"
         }
     ],
     "lives": [
