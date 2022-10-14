@@ -150,7 +150,7 @@ class Spider(Spider):
 		"filter": {}
 	}
 	header = {
-		"User-Agent":"Dalvik/2.1.0"
+		"User-Agent":"okhttp/3.12.0"
 	}
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
