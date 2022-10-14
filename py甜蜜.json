@@ -5,8 +5,8 @@
             "name": "酷云七七",
             "type": 3,
             "api": "py_kunyu77",
-            "searchable": 0,
-            "quickSearch": 0,
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": "https://kebedd69.github.io/TVbox-interface/py/py_kunyu77.py"
         },
