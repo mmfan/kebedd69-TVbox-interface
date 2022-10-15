@@ -44,7 +44,8 @@
             "api": "csp_QQ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da"
         },
         {
             "key": "csp_MGTV",
@@ -53,7 +54,8 @@
             "api": "csp_MGTV",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da"
         },
         {
             "key": "csp_IQIYI",
@@ -62,7 +64,8 @@
             "api": "csp_IQIYI",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da"
         },
         {
             "key": "APPTT",
