@@ -11,8 +11,8 @@ var rule={
         'User-Agent':'MOBILE_UA',
         // "Cookie": "searchneed=ok"
     },
-     class_name:'电影&连续剧&综艺&动漫',
-     class_url:'dianying&lianxuju&zongyi&dongman',
+     class_name:'电影&连续剧&综艺&动漫&动作片&喜剧片&爱情片&科幻片&言情片&恐怖片&剧情片&战争片&国产剧&港台剧&日韩剧&欧美剧&其他剧',
+     class_url:'dianying&lianxuju&zongyi&dongman&dongzuopian&xijupian&aiqingpian&kehuanpian&yanqingpian&kongbupian&juqingpian&zhanzhengpian&guochanju&gangtaiju&rihanju&oumeiju&qitaju',
     play_parse:true,
     lazy:'',
     limit:6,
