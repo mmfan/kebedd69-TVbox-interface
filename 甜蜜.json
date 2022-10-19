@@ -45,7 +45,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da"
+            "jar": "./jar/甜蜜1019.jar;md5;be69d0c9e96e8637ba98436236c82bf6"
         },
         {
             "key": "csp_MGTV",
@@ -55,7 +55,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da"
+            "jar": "./jar/甜蜜1019.jar;md5;be69d0c9e96e8637ba98436236c82bf6"
         },
         {
             "key": "csp_IQIYI",
@@ -65,7 +65,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da"
+            "jar": "./jar/甜蜜1019.jar;md5;be69d0c9e96e8637ba98436236c82bf6"
         },
         {
             "key": "APPTT",
@@ -113,7 +113,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar":"./jar/甜蜜1020.jar"
+            "jar": "./jar/甜蜜1020.jar"
         },
         {
             "key": "Bttoo",
@@ -151,7 +151,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar":"./jar/甜蜜1020.jar"
+            "jar": "./jar/甜蜜1020.jar"
         },
         {
             "key": "追剧喵",
@@ -1122,5 +1122,5 @@
         "cms.qdwght.com"
     ],
     "wallpaper": "https://tool.weetai.cn/api",
-    "spider": "https://kebedd69.github.io/TVbox-interface/ext/甜蜜1009.jar;md5;648653a1067c03abb0ef369a463d7e20"
+    "spider": "./ext/甜蜜1009.jar;md5;648653a1067c03abb0ef369a463d7e20"
 }
