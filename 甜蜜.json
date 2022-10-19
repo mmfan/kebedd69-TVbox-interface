@@ -77,16 +77,6 @@
             "searchable": 1
         },
         {
-            "key": "293视频",
-            "name": "293视频（SP）",
-            "type": 3,
-            "api": "csp_SP293",
-            "searchable": 1,
-            "playerType": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "剧荒TV（SP）",
             "name": "剧荒（SP）",
             "type": 3,
@@ -122,7 +112,8 @@
             "api": "csp_Lib",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "jar":"./jar/甜蜜1020.jar"
         },
         {
             "key": "Bttoo",
@@ -159,7 +150,8 @@
             "api": "csp_Czsapp",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "jar":"./jar/甜蜜1020.jar"
         },
         {
             "key": "追剧喵",
