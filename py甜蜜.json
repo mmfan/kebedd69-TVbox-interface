@@ -298,7 +298,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://kebedd69.github.io/TVbox-interface/ext/090909.jar;md5;4a4420350be90a44734b505c1ccd49da",
+            "jar": "./jar/推送.jar",
             "ext": "f6fcd2d1c0e54601805413721d89e0ca"
         }
     ],
