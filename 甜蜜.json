@@ -113,7 +113,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./jar/甜蜜1020.jar"
+            "jar": "./jar/ts1023.jar;md5;0817ad7a4ac2896f4ed58bae2bbc26c5"
         },
         {
             "key": "Bttoo",
@@ -359,28 +359,6 @@
             "ext": "f6fcd2d1c0e54601805413721d89e0ca"
         },
         {
-            "key": "Upyunso",
-            "name": "up云搜（仅搜索）",
-            "type": 3,
-            "api": "csp_Upyunso",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "f6fcd2d1c0e54601805413721d89e0ca"
-        },
-        {
-            "key": "csp_Yiso",
-            "name": "易搜(仅搜索)",
-            "type": 3,
-            "api": "csp_Yiso",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/yisozc.jar;md5;8d29a86d985a54225af22a82bb9328ee",
-            "ext": "f6fcd2d1c0e54601805413721d89e0ca"
-        },
-        {
             "key": "csp_xpath_qiumi",
             "name": "球迷直播",
             "type": 3,
@@ -418,6 +396,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
+            "jar": "./jar/ts1023.jar;md5;0817ad7a4ac2896f4ed58bae2bbc26c5",
             "ext": "f6fcd2d1c0e54601805413721d89e0ca"
         }
     ],
