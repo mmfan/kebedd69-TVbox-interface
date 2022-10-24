@@ -283,6 +283,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "jar": "./jar/ts1023.jar;md5;0817ad7a4ac2896f4ed58bae2bbc26c5",
             "ext": "f6fcd2d1c0e54601805413721d89e0ca"
         },
         {
@@ -294,7 +295,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "f6fcd2d1c0e54601805413721d89e0ca"
+            "ext": "f6fcd2d1c0e54601805413721d89e0ca",
+            "jar": "./jar/ts1023.jar;md5;0817ad7a4ac2896f4ed58bae2bbc26c5"
         },
         {
             "key": "AliPS",
@@ -305,6 +307,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "jar": "./jar/ts1023.jar;md5;0817ad7a4ac2896f4ed58bae2bbc26c5",
             "ext": "f6fcd2d1c0e54601805413721d89e0ca"
         },
         {
