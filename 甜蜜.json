@@ -19,15 +19,6 @@
             "filterable": 1
         },
         {
-            "key": "桉t4",
-            "name": "豆瓣榜单（桉T4）",
-            "type": 4,
-            "api": "https://t4.secan.icu/vod?sites=all&ali_token=f6fcd2d1c0e54601805413721d89e0ca&timeout=6",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
             "key": "Bili",
             "name": "Bili(SP)",
             "type": 3,
@@ -75,6 +66,15 @@
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1
+        },
+        {
+            "key": "桉t4",
+            "name": "豆瓣榜单（桉T4）",
+            "type": 4,
+            "api": "https://t4.secan.icu/vod?sites=all&ali_token=f6fcd2d1c0e54601805413721d89e0ca&timeout=6",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "剧荒TV（SP）",
@@ -358,7 +358,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=aHR0cDovL3R2Lmp0aG4uY24vbGl2ZXMvbGl2ZV9wbHVzLnR4dA=="
+                        "proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ="
                     ]
                 }
             ]
